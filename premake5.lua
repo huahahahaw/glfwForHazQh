@@ -31,9 +31,16 @@ project "GLFW"
             "src/win32_time.c",
             "src/win32_thread.c",
             "src/win32_window.c",
+            "src/win32_module.c",
             "src/wgl_context.c",
             "src/egl_context.c",
             "src/osmesa_context.c",
+            "src/platform.c",
+            "src/init.c",
+            "src/null_init.c",
+            "src/null_window.c",
+            "src/null_monitor.c",
+            "src/null_joystick.c",
         }
 
         defines
